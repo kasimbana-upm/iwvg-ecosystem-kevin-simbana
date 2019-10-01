@@ -5,6 +5,7 @@
 ## Estado del código
 [![Build Status](https://travis-ci.org/kasimbana-upm/iwvg-ecosystem-kevin-simbana.svg?branch=develop)](https://travis-ci.org/kasimbana-upm/iwvg-ecosystem-kevin-simbana)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg-ecosystem-kevin-simbana&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aiwvg-ecosystem-kevin-simbana)
+[![BCH compliance](https://bettercodehub.com/edge/badge/kasimbana-upm/iwvg-ecosystem-kevin-simbana?branch=develop)](https://bettercodehub.com/)
 
 ## Ecosistema
 * Java
