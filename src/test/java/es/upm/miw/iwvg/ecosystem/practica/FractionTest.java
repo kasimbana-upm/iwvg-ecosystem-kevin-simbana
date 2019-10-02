@@ -48,9 +48,6 @@ public class FractionTest {
     }
 
     @Test
-    void testIsInpropia() { assertEquals(false, fraction.isInpropia());}
-
-    @Test
     void testMultiplyFraction() {
         Fraction multiplier = new Fraction(2, 2);
         fraction.multiplyFraction(multiplier);
