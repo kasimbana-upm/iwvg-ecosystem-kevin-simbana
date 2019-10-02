@@ -42,4 +42,9 @@ public class FractionTest {
         assertEquals(10, fraction.getDenominator());
     }
 
+    @Test
+    void testIsPropia() {
+        assertEquals(true, fraction.isPropia());
+    }
+
 }
