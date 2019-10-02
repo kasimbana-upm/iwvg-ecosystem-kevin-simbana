@@ -31,4 +31,9 @@ public class Fraction {
         return this.numerator < this.denominator;
     }
 
+    public void multiplyFraction(Fraction multiplier) {
+        this.numerator = this.numerator * multiplier.numerator;
+        this.denominator = this.denominator * multiplier.denominator;
+    }
+
 }
