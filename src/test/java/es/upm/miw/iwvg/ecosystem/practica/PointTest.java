@@ -74,4 +74,16 @@ class PointTest {
         assertEquals(2, point.getY());
     }
 
+    @Test
+    void testMoveHorizontally() {
+        point.moveHorizontally(5);
+        assertEquals(7, point.getX());
+    }
+
+    @Test
+    void testMoveVertically() {
+        point.moveVertically(5);
+        assertEquals(8, point.getY());
+    }
+
 }
