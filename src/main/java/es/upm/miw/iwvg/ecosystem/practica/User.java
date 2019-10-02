@@ -22,6 +22,8 @@ public class User {
         return this.name + " " + this.familyName;
     }
 
+    public String fullNameFamilyFirst() { return this.familyName + ", " + this.name; }
+
     public String initials() {
         return this.name.substring(0, 1) + "." + this.familyName.substring(0, 1);
     }
