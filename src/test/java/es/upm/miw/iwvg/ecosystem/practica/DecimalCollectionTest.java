@@ -51,4 +51,9 @@ class DecimalCollectionTest {
         assertThrows(ArithmeticException.class, () -> new DecimalCollection().higher());
     }
 
+    @Test
+    void testLowerArithmeticExceptionIfEmpty() {
+        assertThrows(ArithmeticException.class, () -> new DecimalCollection().lower());
+    }
+
 }
