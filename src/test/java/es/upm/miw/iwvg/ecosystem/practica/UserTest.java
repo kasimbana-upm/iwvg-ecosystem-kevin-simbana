@@ -27,6 +27,9 @@ public class UserTest {
     }
 
     @Test
+    void testFullNmaeFamilyFirst() { assertEquals("Ronaldo, Cristiano", user.fullNameFamilyFirst()); }
+
+    @Test
     void testInitials() {
         assertEquals("C.R", user.initials());
     }
@@ -44,6 +47,11 @@ public class UserTest {
     @Test
     void testGetFamilyName() {
         assertEquals("Ronaldo", user.getFamilyName());
+    }
+
+    @Test
+    void testGetFullNameUpperCase() {
+        assertEquals("CRISTIANO RONALDO", user.getFullNameUpperCase());
     }
 
 }
