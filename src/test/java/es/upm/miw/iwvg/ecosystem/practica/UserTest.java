@@ -46,4 +46,9 @@ public class UserTest {
         assertEquals("Ronaldo", user.getFamilyName());
     }
 
+    @Test
+    void testGetFullNameUpperCase() {
+        assertEquals("CRISTIANO RONALDO", user.getFullNameUpperCase());
+    }
+
 }
