@@ -56,4 +56,9 @@ class DecimalCollectionTest {
         assertThrows(ArithmeticException.class, () -> new DecimalCollection().lower());
     }
 
+    @Test
+    void testGetCollectionSize() {
+        assertEquals(4, this.decimalCollection.getCollectionSize());
+    }
+
 }

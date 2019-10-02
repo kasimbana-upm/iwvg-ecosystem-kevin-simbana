@@ -42,4 +42,8 @@ public class DecimalCollection {
         return Collections.min(this.collection);
     }
 
+    public int getCollectionSize() {
+        return this.collection.size();
+    }
+
 }
