@@ -42,4 +42,20 @@ public class FractionTest {
         assertEquals(10, fraction.getDenominator());
     }
 
+    @Test
+    void testIsPropia() {
+        assertEquals(true, fraction.isPropia());
+    }
+
+    @Test
+    void testIsInpropia() { assertEquals(false, fraction.isInpropia());}
+
+    @Test
+    void testMultiplyFraction() {
+        Fraction multiplier = new Fraction(2, 2);
+        fraction.multiplyFraction(multiplier);
+        assertEquals(10, fraction.getNumerator());
+        assertEquals(20, fraction.getDenominator());
+    }
+
 }

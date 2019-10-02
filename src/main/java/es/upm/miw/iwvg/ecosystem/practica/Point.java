@@ -32,12 +32,28 @@ public class Point {
         this.y -= origin.getY();
     }
 
+    public void moveHorizontally(int units) {
+        this.x += units;
+    }
+
+    public void moveVertically(int units) {
+        this.y += units;
+    }
+
     public int getX() {
         return this.x;
     }
 
     public int getY() {
         return this.y;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public void setY(int y) {
+        this.y = y;
     }
 
     @Override
